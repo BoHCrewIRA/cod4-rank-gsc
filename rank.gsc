@@ -11,7 +11,7 @@ init()
 	self endon("disconnect");
 	level.scoreInfo = [];
 	level.rankTable = [];
-    level.xpScale = getDvarInt( "scr_xpscale" );
+	level.xpScale = getDvarInt( "scr_xpscale" );
 	if( level.xpScale < 1 )
 		level.xpScale = 1;
 	else if( level.xpScale > 100)
